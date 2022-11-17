@@ -9,11 +9,11 @@
 - ⟴ Custom Texts (About, Help, Stats,More..)
 - ⟴ Custom URL Buttons (Updates channel, Add To Group, Force Sub, More...)
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/BUDDY1609/url-auto-delete-shortener-bot&branch=main&name=nvsautofilterbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/BUDDY1609/auto-filter-bot&branch=main&name=nvsautofilterbot)
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BUDDY1609/url-auto-delete-shortener-bot/main/screenshort/Screenshot%202022-11-17%20092848.png" alt="Koyeb Support">
+  <img src="https://raw.githubusercontent.com/BUDDY1609/auto-filter-bot/main/screenshort/Screenshot%202022-11-17%20092848.png" alt="Koyeb Support">
 </p>
 <h1 align="center">
   <b>Koyeb Support</b>
