@@ -675,7 +675,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/nvstg')]
+    [InlineKeyboardButton(text="🔘 𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 🔘", url='https://t.me/Movies_emperio')]
 )
 
     
@@ -683,8 +683,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Movies_emperio'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Movies_emperio')
+            InlineKeyboardButton('GROUP', url='https://t.me/+8C3k5azgbJ1jNGE1'),
+            InlineKeyboardButton('CHANNEL', url='https://t.me/Movies_emperio')
         ]
     )
     
