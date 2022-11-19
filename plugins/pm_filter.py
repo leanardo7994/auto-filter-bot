@@ -373,7 +373,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('Check PM, I have sent files in pm', show_alert=True)
+                await query.answer('𝗖𝗵𝗲𝗰𝗸 𝗕𝗼𝘁 𝗣𝗠, 𝗜 𝗛𝗮𝘃𝗲 𝗦𝗲𝗻𝘁 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲𝘀 𝗜𝗻 𝗕𝗼𝘁 𝗣𝗠',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
@@ -413,11 +413,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('👤 About', callback_data='about')
             ],[
-            InlineKeyboardButton('😊 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+            InlineKeyboardButton('🔍 SEARCH MOVIES IN HERE', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -428,14 +429,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Entered Back To Main Menu')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙈𝙖𝙣𝙪𝙖𝙡 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='autofilter')
-        ], [
-            InlineKeyboardButton('𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙞𝙤𝙣', callback_data='coct'),
-            InlineKeyboardButton('𝙀𝙭𝙩𝙧𝙖 𝙈𝙤𝙙𝙨', callback_data='extra')
-        ], [
-            InlineKeyboardButton('🏠 𝙃𝙊𝙈𝙀', callback_data='start'),
-            InlineKeyboardButton('🔮 𝙎𝙏𝘼𝙏𝙐𝙎', callback_data='stats')
+            InlineKeyboardButton('📺 Channel', url='https://t.me/movies_emperio'),
+            InlineKeyboardButton('⚙ Source', callback_data='source')
+            ],[
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -446,10 +444,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.answer("You clicked About Me")
         buttons = [[
-            InlineKeyboardButton('🏠 𝙃𝙊𝙈𝙀', callback_data='start'),
-            InlineKeyboardButton('🔐 𝘾𝙇𝙊𝙎𝙀', callback_data='close_data')
-        ],[
-            InlineKeyboardButton('🔮 𝙎𝙏𝘼𝙏𝙐𝙎', callback_data='stats')
+            InlineKeyboardButton('📺 Channel', url='https://t.me/movies_emperio'),
+            InlineKeyboardButton('⚙ Source', callback_data='source')
+            ],[
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -684,8 +683,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+ONSD-vaHdJliOWQ9'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Movies_emperio'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Movies_emperio')
         ]
     )
     
