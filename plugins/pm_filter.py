@@ -75,8 +75,8 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+ONSD-vaHdJliOWQ9'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('GROUP, url='https://t.me/+8C3k5azgbJ1jNGE1'),
+            InlineKeyboardButton('CHANNEL', url='https://t.me/Movies_emperio')
         ]
     )
    
