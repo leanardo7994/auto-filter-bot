@@ -90,7 +90,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/tgnvs')]
+    [InlineKeyboardButton(text="JOIN CHANNEL", url='https://t.me/Movies_emperio')]
 )
     if n_offset == 0:
         btn.append(
