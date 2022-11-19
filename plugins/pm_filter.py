@@ -75,7 +75,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('GROUP, url='https://t.me/+8C3k5azgbJ1jNGE1'),
+            InlineKeyboardButton('GROUP, url='https://t.me/CinemasEmpire'),
             InlineKeyboardButton('CHANNEL', url='https://t.me/Movies_emperio')
         ]
     )
@@ -683,7 +683,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('GROUP', url='https://t.me/+8C3k5azgbJ1jNGE1'),
+            InlineKeyboardButton('GROUP', url='https://t.me/CinemasEmpire'),
             InlineKeyboardButton('CHANNEL', url='https://t.me/Movies_emperio')
         ]
     )
