@@ -10,8 +10,7 @@ Here Is The Help For My Commands."""
 ◉ <b>Bot Server :</b> <a href='https://heroku.com/'>HEROKU</a>
 ◉ <b>Channel :</b> @Movies_Emperio
 ◉ <b>Group :</b> @Cinemas_Empire
-◉ <b>Build Status :</b> v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""s://t.me/tgnvs><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+◉ <b>Build Status :</b> v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 💾 Is A Closed Source Project 🔒.
 
