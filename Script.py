@@ -12,16 +12,10 @@ Here Is The Help For My Commands."""
 ◉ <b>Group :</b> @Cinemas_Empire
 ◉ <b>Build Status :</b> v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>Donation</b>
-<b>Thanks for showing interest in donation
-Donate Us To Keep Alive
-Continously Alive
-You Can Send Any Amount
-Donate Only One Rupee
-Of 10₹,20₹,30₹,50₹,100₹ 😁
-💸Payment Methods:
-Only UPI
-UPI:-</b> tgnvs@airtel
--<b> <a href=https://upier.vercel.app/pay/tgnvs@airtel?am=15>Donation Link</a></b>"""
+- 𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 💾 Is A Closed Source Project 🔒.  
+
+<b>CREATOR:</b>
+- <a href='tg://user?id=1059785066'>𝗣𝗟𝗔𝐘 𝗕𝗢𝐘</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
