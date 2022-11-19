@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖ᴜᴘᴅᴀᴛᴇ🤖', url='https://t.me/search_zone')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/movies_emperio')
             ],
             [
-                InlineKeyboardButton('Buy 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/GreyMatter_Owner"),
+                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,10 +42,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs'),
-            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('😊 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('👤 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🔍 SEARCH MOVIES IN HERE', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -64,31 +66,28 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "👉Click ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ👈", url=invite_link.invite_link
+                    "Click HERE To Join In Our Channel", url='https://t.me/Movies_emperio'
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            try:
-                kk, file_id = message.command[1].split("_", 1)
-                pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("❤️‍🔥ᴀꜰᴛᴇʀ ᴊᴏɪɴɪɴɢ ᴄʟɪᴄᴋ ʜᴇʀᴇ❤️‍🔥", callback_data=f"{pre}#{file_id}")])
-            except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("❤️‍🔥ᴀꜰᴛᴇʀ ᴊᴏɪɴɪɴɢ ᴄʟɪᴄᴋ ʜᴇʀᴇ❤️‍🔥", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🔄 TRY AGAIN", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**ᴊᴏɪɴ ᴍʏ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ꜰʀᴏᴍ ᴍᴇ!**",
+            text="**Please Join In Our @Movies_Emperio Official Channel To Use This Bot. After Join The Channel Click The 🔄 TRY AGAIN Button**",
             reply_markup=InlineKeyboardMarkup(btn),
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode="markdown"
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs'),
-            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('😊 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('👤 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🔍 SEARCH MOVIES IN HERE', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
