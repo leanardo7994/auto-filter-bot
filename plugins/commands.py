@@ -235,8 +235,8 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
                     [
-                        InlineKeyboardButton('🚸 ᴅᴇʟᴇᴛᴇ', callback_data='close_data'),
-                        InlineKeyboardButton('💞 sʜᴀʀᴇ', url='https://t.me/share/url?url=NVS+Movie+Request+Group+%0D%0A+%0D%0A%F0%9F%91%87+%0D%0AWhatever+you+might+ask%2C+you+will+get..+%E2%9D%A4%EF%B8%8F+%0D%0A+%0D%0A%F0%9F%91%87+Join%0D%0A+https%3A%2F%2Ft.me%2Fnvsmovielink')
+                        InlineKeyboardButton('🗑 DELETE', callback_data='close_data'),
+                        InlineKeyboardButton('💎 CHANNEL', url='https://t.me/Movies_emperio')
                     ],
                     [
                         InlineKeyboardButton(text=f'🌿 Fɪʟᴇ sɪᴢᴇ 【 {size} 】🌿', callback_data='gxneo')
