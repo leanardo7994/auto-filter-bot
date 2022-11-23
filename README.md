@@ -6,9 +6,6 @@
 - 🔘 Custom Download Name And URL
 - 🔘 Custom Texts (About, Help, Stats,More..)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BUDDY1609/auto-filter-bot/main/screenshort/Screenshot%202022-11-17%20092848.png" alt="Koyeb Support">
-</p>
 <h1 align="center">
   <b>Koyeb Support</b>
 </h1>
