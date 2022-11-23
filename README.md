@@ -6,9 +6,6 @@
 - 🔘 Custom Download Name And URL
 - 🔘 Custom Texts (About, Help, Stats,More..)
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/leanardo7994/auto-filter-bot&branch=main&name=filterbot01)
-
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/BUDDY1609/auto-filter-bot/main/screenshort/Screenshot%202022-11-17%20092848.png" alt="Koyeb Support">
 </p>
