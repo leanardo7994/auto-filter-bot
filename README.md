@@ -1,15 +1,12 @@
 ## • What's New ?
 
-- ⟴ URL Shortener Added
-- ⟴ Self Delete Added (Auto delete)
-- ⟴ Filter On Off Option Added
-- ⟴ Custom Welcome Message
-- ⟴ URL Shortener Added
-- ⟴ Custom Download Name And URL
-- ⟴ Custom Texts (About, Help, Stats,More..)
-- ⟴ Custom URL Buttons (Updates channel, Add To Group, Force Sub, More...)
+- 🔘 Self Delete Added (Auto delete)
+- 🔘 Filter On Off Option Added
+- 🔘 Custom Welcome Message
+- 🔘 Custom Download Name And URL
+- 🔘 Custom Texts (About, Help, Stats,More..)
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/BUDDY1609/auto-filter-bot&branch=main&name=nvsautofilterbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/leanardo7994/auto-filter-bot&branch=main&name=filterbot01)
 
 
 <p align="center">
@@ -89,6 +86,9 @@ python3 bot.py
 </pre>
 </p>
 </details>
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/leanardo7994/auto-filter-bot&branch=main&name=filterbot01)
+
 
 
 ## Commands
