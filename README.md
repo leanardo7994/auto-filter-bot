@@ -114,8 +114,7 @@ batch - to create link for multiple posts
 link - to create link for one post
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/greymatters_bots_discussion)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/greymatter_bots)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/Movies_emperio)
 
 ## Credits 
 * [![ᎯℕUℛᎯᎶ](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/sources_cods)
@@ -129,7 +128,6 @@ link - to create link for one post
 ### Note
 
 you a Developer.
-Fork the repo and edit as per your needs.
+Fork the repo and edit as per your needs.😉
 
-## Inspiration
-🙃
+
