@@ -81,7 +81,7 @@ python3 bot.py
 </p>
 </details>
 
-#### Deploy on Koyeb
+## Deploy on Koyeb
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
