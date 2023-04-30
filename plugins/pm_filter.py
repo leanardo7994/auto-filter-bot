@@ -430,11 +430,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Entered Back To Main Menu')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('📺 Channel', url='https://t.me/movies_emperio'),
-            InlineKeyboardButton('⚙ Source', callback_data='source')
-            ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('♥️ Donation', callback_data='source')
+        ],[
+            InlineKeyboardButton('𝙈𝙖𝙣𝙪𝙖𝙡 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='autofilter')
+        ], [
+            InlineKeyboardButton('𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙞𝙤𝙣', callback_data='coct'),
+            InlineKeyboardButton('𝙀𝙭𝙩𝙧𝙖 𝙈𝙤𝙙𝙨', callback_data='extra')
+        ], [
+            InlineKeyboardButton('🏠 𝙃𝙊𝙈𝙀', callback_data='start'),
+            InlineKeyboardButton('🔮 𝙎𝙏𝘼𝙏𝙐𝙎', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
