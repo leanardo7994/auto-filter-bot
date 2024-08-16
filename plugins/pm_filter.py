@@ -450,7 +450,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.answer("You clicked About Me")
         buttons = [[
-            InlineKeyboardButton('📺 Channel', url='https://t.me/movies_emperio'),
+            InlineKeyboardButton('📺 Channel', url='https://t.me/Movie_Emporio'),
             InlineKeyboardButton('⚙ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -680,7 +680,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton(text="🔘 𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 🔘", url='https://t.me/Movies_emperio')]
+    [InlineKeyboardButton(text="🔘 𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 🔘", url='https://t.me/Movie_Emporio')]
 )
 
     
@@ -688,8 +688,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('GROUP', url='https://t.me/CinemasEmpire'),
-            InlineKeyboardButton('CHANNEL', url='https://t.me/Movies_emperio')
+            InlineKeyboardButton('GROUP', url='https://t.me/MoviesEmporio_Group'),
+            InlineKeyboardButton('CHANNEL', url='https://t.me/Movie_Emporio')
         ]
     )
     
