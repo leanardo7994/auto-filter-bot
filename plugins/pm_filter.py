@@ -75,8 +75,8 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('GROUP', url='https://t.me/+uLXGa0a7dNphNDk9'),
-            InlineKeyboardButton('CHANNEL', url='https://t.me/Movies_emperio')
+            InlineKeyboardButton('GROUP', url='https://t.me/MoviesEmporio_Group'),
+            InlineKeyboardButton('CHANNEL', url='https://t.me/Movie_Emporio')
         ]
     )
    
@@ -90,7 +90,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton(text="JOIN CHANNEL", url='https://t.me/Movies_emperio')]
+    [InlineKeyboardButton(text="JOIN CHANNEL", url='https://t.me/Movie_emporio')]
 )
     if n_offset == 0:
         btn.append(
