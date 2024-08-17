@@ -236,10 +236,10 @@ async def start(client, message):
     buttons = [
                     [
                         InlineKeyboardButton('🗑 DELETE', callback_data='close_data'),
-                        InlineKeyboardButton('💎 CHANNEL', url='https://t.me/Movies_emperio')
+                        InlineKeyboardButton('📺 CHANNEL', url='https://t.me/Movie_emporio')
                     ],
                     [
-                        InlineKeyboardButton(text=f'🌿 Fɪʟᴇ sɪᴢᴇ 【 {size} 】🌿', callback_data='gxneo')
+                        InlineKeyboardButton(text=f'💾 FILE SIZE = {size}', callback_data='gxneo')
                     ]
                     ]
     await client.send_cached_media(
