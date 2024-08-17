@@ -53,7 +53,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey {u.mention} 👋🏻,
+                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey {u.mention} 👋🏻,</b>
 <b>Welcome To Our Group 🙏</b>
 <b><blockquote>Here You Can Get Movies / Series As Your Wish
 Just Send Movies/Series Name With Proper Spelling</blockquote></b>
