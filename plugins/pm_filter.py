@@ -465,7 +465,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         await query.answer("You Entered Into Paid Promotion Tab")
         buttons = [[
-            InlineKeyboardButton('👀ᴍᴀɪɴ ᴍᴇɴᴜ👀', callback_data='start')
+            InlineKeyboardButton('⚙ MAIN MENU', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
