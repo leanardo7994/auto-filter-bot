@@ -1,7 +1,6 @@
 class script(object):
     START_TXT = """𝐇𝐄𝐋𝐋𝐎 {} 🙏<blockquote>𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬 & 𝐒𝐞𝐫𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐚𝐧𝐝 𝐄𝐧𝐣𝐨𝐲. 𝐀𝐥𝐬𝐨 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐒𝐞𝐚𝐫𝐜𝐡 𝐌𝐨𝐯𝐢𝐞𝐬 𝐯𝐢𝐚 𝐈𝐧𝐥𝐢𝐧𝐞 𝐈𝐧 𝐇𝐞𝐫𝐞 ⚡</blockquote>"""
-    HELP_TXT = """Hey {}
-Here Is The Help For My Commands."""
+    HELP_TXT = """Hey {}<blockquote>Here Is The Help For My Commands 💁‍♂️</blockquote>"""
     ABOUT_TXT = """◉ <b>My Name Is</b> <a href='https://t.me/MoviesEmporioFilter_Bot'>𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 💾</a>
 ◉ <b>Creator :</b> <a href='tg://user?id=5279799134'>𝗟 𝗢 𝗗 𝗚 𝗔 𝗡</a>
 ◉ <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram</a>
@@ -11,10 +10,9 @@ Here Is The Help For My Commands."""
 ◉ <b>Group :</b> @MoviesEmporio_Group
 ◉ <b>Build Status :</b> v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>Donation</b>
-<blockquote>This Is A Closed Source Project 🔒.</blockquote>  
-
+<blockquote>This Is A Closed Source Project 🔒.</blockquote>
 <b>CREATOR:</b>
-- <a href='tg://user?id=5279799134'>𝗟 𝗢 𝗗 𝗚 𝗔 𝗡</a>"""
+⚡<a href='tg://user?id=5279799134'>𝗟 𝗢 𝗗 𝗚 𝗔 𝗡</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
