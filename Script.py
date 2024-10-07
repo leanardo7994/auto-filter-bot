@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hello {} 👋,\n
-I Can Provide Movies & Series, Just Add Me To Your Group and Enjoy. Also You Can Search Movies via Inline In Here!..."""
+<blockquote>I Can Provide Movies & Series, Just Add Me To Your Group and Enjoy. Also You Can Search Movies via Inline In Here!...</blockquote>"""
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
     ABOUT_TXT = """◉ <b>My Name Is</b> <a href='https://t.me/MoviesEmporioFilter_Bot'>𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 💾</a>
@@ -12,7 +12,7 @@ Here Is The Help For My Commands."""
 ◉ <b>Group :</b> @MoviesEmporio_Group
 ◉ <b>Build Status :</b> v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>Donation</b>
-- 𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 💾 Is A Closed Source Project 🔒.  
+- This Is A Closed Source Project 🔒.  
 
 <b>CREATOR:</b>
 - <a href='tg://user?id=5279799134'>𝗟 𝗢 𝗗 𝗚 𝗔 𝗡</a>"""
