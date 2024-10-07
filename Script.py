@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """𝐇𝐄𝐋𝐋𝐎 {} 🙏<blockquote>𝐈 𝐂𝐀𝐍 𝐏𝐑𝐎𝐕𝐈𝐃𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 & 𝐒𝐄𝐑𝐈𝐄𝐒, 𝐉𝐔𝐒𝐓 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐄𝐍𝐉𝐎𝐘. 𝐀𝐋𝐒𝐎 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐒𝐄𝐀𝐑𝐂𝐇 𝐌𝐎𝐕𝐈𝐄𝐒 𝐕𝐈𝐀 𝐈𝐍𝐋𝐈𝐍𝐄 𝐈𝐍 𝐇𝐄𝐑𝐄⚡</blockquote>"""
+    START_TXT = """𝐇𝐄𝐋𝐋𝐎 {} 🙏<blockquote>𝐈 𝐂𝐀𝐍 𝐏𝐑𝐎𝐕𝐈𝐃𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 & 𝐒𝐄𝐑𝐈𝐄𝐒, 𝐉𝐔𝐒𝐓 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐄𝐍𝐉𝐎𝐘. 𝐀𝐋𝐒𝐎 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐒𝐄𝐀𝐑𝐂𝐇 𝐌𝐎𝐕𝐈𝐄𝐒 𝐕𝐈𝐀 𝐈𝐍𝐋𝐈𝐍𝐄 𝐈𝐍 𝐇𝐄𝐑𝐄!</blockquote>"""
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
     ABOUT_TXT = """◉ <b>My Name Is</b> <a href='https://t.me/MoviesEmporioFilter_Bot'>𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐎𝐑𝐈𝐎 💾</a>
