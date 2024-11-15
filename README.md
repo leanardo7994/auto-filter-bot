@@ -4,7 +4,7 @@
 - 🔘 Filter On Off Option Added
 - 🔘 Custom Welcome Message
 - 🔘 Custom Download Name And URL
-- 🔘 Custom Texts (About, Help, Stats,More..)
+- 🔘 Custom Texts (About, Help, Stats,More...)
 
 <h1 align="center">
   <b>Koyeb Support</b>
